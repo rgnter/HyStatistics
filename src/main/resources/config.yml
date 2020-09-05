@@ -1,0 +1,29 @@
+# Agenda:
+# com - Communication With Data Source
+#
+# Config for version: ${version}
+
+# Com Configuration
+com-config:
+  # Database credentials
+  database-host: "localhost"
+  database-port: 3306
+  database-user: "root"
+  database-password: ""
+  database-name: "hyStatistics"
+  # Database connection timeout in seconds
+  database-timeout: 10
+  # Max size of Connection pool
+  connection-pool: 5
+  # Connection parameters separated by &
+  advanced-params: "?ssl=true"
+
+# Should COM run Async?
+# This should be set to true as we don't need server to wait for us.
+com-run-async: true
+# Com update time in minutes
+com-update-delay: 1
+# Show how long did the update took?
+show-time-consumption: true
+
+

@@ -1,0 +1,5 @@
+name: ${artifactId}
+version: ${version}
+main: me.DigitalRegent.HyStatistics.Plugin
+author: DigitalRegent(Wener)
+api-version: 1.14
